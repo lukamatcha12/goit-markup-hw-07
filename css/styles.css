@@ -1095,3 +1095,13 @@ nav li a:first-child:focus {
     display: flex;
     gap: 24px;
     }
+
+        /* Media Query */
+        @media only screen and (min-width:428px) and (max-width:767px) {
+            .container {
+                width: 775px;
+                margin: 0 auto;
+            }
+        }
+    
+        @media only screen and (min-width:428px) and (max-width: 767px) {}
